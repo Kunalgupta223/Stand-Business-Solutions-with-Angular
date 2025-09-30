@@ -1,0 +1,186 @@
+body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    /* Navbar styling */
+    .navbar {
+      background: #fff;
+      padding: 15px 30px;
+    }
+    .nav-item :hover {
+        background-color: #8BC34A;
+    }
+
+    .navbar-nav .nav-link {
+      font-weight: 500;
+      color: #000;
+      margin-right: 20px;
+    }
+
+    .navbar-nav .nav-link.active {
+      color: #8BC34A;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1600') 
+                  no-repeat center center/cover;
+      height: 100vh;
+      position: relative;
+      color: white;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: left;
+      padding-left: 100px;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #8BC34A;
+    }
+
+    .hero-content p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+    .our-services {
+    background-color: #ffffff; /* White background for the section */
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.service-box {
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease-in-out;
+    min-height: 250px; /* Ensure boxes are of similar height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-box:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+
+.icon-wrapper {
+    width: 70px;
+    height: 70px;
+    background-color: #e6ffe6; /* Light green background for icons */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+}
+
+.service-icon {
+    font-size: 2.5em;
+    color: #4CAF50; /* Green color for icons */
+}
+
+.service-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.service-text {
+    color: #777;
+    font-size: 1em;
+    line-height: 1.6;
+}
+.our-process {
+    background-color: #5cb85c; /* A shade of green similar to the image */
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #1d1a1a; /* White text for the title */
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: rgba(17, 15, 15, 0.8); /* Slightly transparent white for description */
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.process-step {
+    background-color: #ffffff; /* White background for each step box */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+    min-height: 450px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the top */
+    align-items: center;
+    padding-top: 20px; /* Add some padding at the top for the image */
+}
+
+.process-step:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+.process-step img {
+    border-radius: 5px; /* Slightly rounded corners for images */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    max-height: 200px; /* Control image height */
+    width: 100%; /* Make image responsive within its container */
+    margin-bottom: 20px;
+}
+
+.step-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.step-text {
+    color: #777;
+    font-size: 1em;
+    line-height: 1.6;
+    padding: 0 15px; /* Add horizontal padding to the text */
+}
